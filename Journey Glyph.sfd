@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1504817616
-ModificationTime: 1504818996
+ModificationTime: 1504821313
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -43,15 +43,46 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 27 27 9
+WinInfo: 0 27 10
 BeginPrivate: 0
 EndPrivate
 Grid
-100 100 m 5
- 100 700 l 5
- 700 700 l 5
- 700 100 l 5
- 100 100 l 5
+570 214 m 5
+ 230 214 l 5
+ 400 449 l 5
+ 570 214 l 5
+100 544 m 1029
+400 400 m 1
+ 600 400 l 1
+ 600 162 l 1
+ 400 162 l 1
+ 400 400 l 1
+570 177 m 1
+ 570 346 l 1
+ 600 346 l 1
+ 600 177 l 1
+ 570 177 l 1
+400 162 m 1
+ 400 400 l 1025
+400 400 m 1
+ 200 400 l 1
+ 200 162 l 1
+ 400 162 l 1
+ 400 400 l 1
+230 177 m 1
+ 230 346 l 1
+ 200 346 l 1
+ 200 177 l 1
+ 230 177 l 1
+400 162 m 1
+ 400 400 l 1025
+0 514 m 25
+ 800 514 l 1049
+100 100 m 1
+ 100 700 l 1
+ 700 700 l 1
+ 700 100 l 1
+ 100 100 l 1
 0 400 m 25
  800 400 l 1025
 400 800 m 25
@@ -65,6 +96,35 @@ Width: 800
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+SplineSet
+442.418945312 390.361328125 m 1
+ 400 370 l 1
+ 357.319335938 390 l 1
+ 230 214 l 1
+ 570 214 l 1
+ 442.418945312 390.361328125 l 1
+461 398 m 5
+ 600 214 l 1
+ 650 214 l 2
+ 677.980148283 214 700 236 700 264 c 2
+ 700 514 l 1
+ 461 398 l 5
+339 398 m 1
+ 200 214 l 1
+ 150 214 l 2
+ 122.044720598 214 100 236 100 264 c 2
+ 100 514 l 1
+ 339 398 l 1
+400 400 m 1
+ 100 544 l 1
+ 100 564 l 2
+ 100 592 122 614 150 614 c 2
+ 650 614 l 2
+ 678 614 700 592 700 564 c 2
+ 700 544 l 1
+ 400 400 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni0000
@@ -351,7 +411,7 @@ StartChar: numbersign
 Encoding: 35 35 36
 Width: 800
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -591,7 +651,7 @@ StartChar: B
 Encoding: 66 66 66
 Width: 800
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -599,7 +659,7 @@ StartChar: C
 Encoding: 67 67 67
 Width: 800
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
