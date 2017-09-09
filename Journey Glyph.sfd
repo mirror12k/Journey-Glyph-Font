@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: Journey_Glyph_WIP
-FullName: Journey_Glyph_WIP
-FamilyName: Journey Glyph WIP
+FontName: Journey_Glyph_v1
+FullName: Journey Glyph
+FamilyName: Journey Glyph
 Weight: Regular
 Copyright: Copyright (c) 2017, mirror12k
 UComments: "2017-9-7: Created with FontForge (http://fontforge.org)"
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1504817616
-ModificationTime: 1504986541
+ModificationTime: 1504987482
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1
@@ -44,7 +45,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 10
+WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -106,7 +107,7 @@ Grid
     0 0 z
   EndSpiro
 EndSplineSet
-BeginChars: 256 61
+BeginChars: 256 60
 
 StartChar: A
 Encoding: 65 65 0
@@ -1897,7 +1898,6 @@ SplineSet
  600 290 510 200 400 200 c 0
  290 200 200 290 200 400 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: b
@@ -2864,16 +2864,6 @@ SplineSet
  209 564 202 568 202 582 c 7
  202 596 220 596 220 596 c 1
 EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: w
-Encoding: 119 119 60
-Width: 800
-VWidth: 0
-Flags: W
-LayerCount: 2
-Fore
 Validated: 1
 EndChar
 EndChars
