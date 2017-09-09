@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1504817616
-ModificationTime: 1504978124
+ModificationTime: 1504978235
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -702,7 +702,7 @@ StartChar: three
 Encoding: 51 51 52
 Width: 800
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
