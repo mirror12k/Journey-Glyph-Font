@@ -31,10 +31,18 @@ i[class^='journey-glyph-'], i[class*=' journey-glyph-'] {
 	font-style: normal;
 }
 
+div[class^='journey-glyph-'], div[class*=' journey-glyph-'] {
+	display: inline-block;
+}
+
+div[class^='journey-glyph-overlay-'], div[class*=' journey-glyph-overlay-'] {
+	transform: translateX(-0.8em);
+	width: 0;
+}
+
 [class^='journey-glyph-'], [class*=' journey-glyph-'] {
 	font-family: 'Journey Glyph';
 	font-size: 4.0em;
-	line-height: 1.0em;
 }
 
 .small[class^='journey-glyph-'], .small[class*=' journey-glyph-'] {
@@ -53,7 +61,7 @@ i[class^='journey-glyph-'], i[class*=' journey-glyph-'] {
 
 foreach my $glyph_record (@$data) {
 	my $glyph_id = lc $glyph_record->{name} =~ y/ /-/r;
-	say ".journey-glyph-$glyph_id\::before { content: '$glyph_record->{glyph}'; }";
+	say ".journey-glyph-$glyph_id\::before, .journey-glyph-overlay-$glyph_id\::before { content: '$glyph_record->{glyph}'; }";
 }
 
 

@@ -13,10 +13,18 @@ i[class^='journey-glyph-'], i[class*=' journey-glyph-'] {
 	font-style: normal;
 }
 
+div[class^='journey-glyph-'], div[class*=' journey-glyph-'] {
+	display: inline-block;
+}
+
+div[class^='journey-glyph-overlay-'], div[class*=' journey-glyph-overlay-'] {
+	transform: translateX(-0.8em);
+	width: 0;
+}
+
 [class^='journey-glyph-'], [class*=' journey-glyph-'] {
 	font-family: 'Journey Glyph';
 	font-size: 4.0em;
-	line-height: 1.0em;
 }
 
 .small[class^='journey-glyph-'], .small[class*=' journey-glyph-'] {
@@ -32,63 +40,63 @@ i[class^='journey-glyph-'], i[class*=' journey-glyph-'] {
 }
 
 
-.journey-glyph-gear-white::before { content: 'A';
-.journey-glyph-gear-black::before { content: 'B';
-.journey-glyph-wrench::before { content: 'C';
-.journey-glyph-sword::before { content: 'D';
-.journey-glyph-shield::before { content: 'E';
-.journey-glyph-cube-white::before { content: 'F';
-.journey-glyph-cube-black::before { content: 'G';
-.journey-glyph-bowl-white::before { content: 'H';
-.journey-glyph-bowl-black::before { content: 'I';
-.journey-glyph-teacup-white::before { content: 'J';
-.journey-glyph-teacup-black::before { content: 'K';
-.journey-glyph-console::before { content: 'L';
-.journey-glyph-server-stack::before { content: 'M';
-.journey-glyph-desktop::before { content: 'N';
-.journey-glyph-mobile-phone::before { content: 'O';
-.journey-glyph-page-file::before { content: 'P';
-.journey-glyph-folder::before { content: 'Q';
-.journey-glyph-envelope-black::before { content: 'R';
-.journey-glyph-envelope-white::before { content: 'S';
-.journey-glyph-sound-speaker::before { content: 'T';
-.journey-glyph-microphone::before { content: 'U';
-.journey-glyph-sine-wave::before { content: 'V';
-.journey-glyph-zigzag-wave::before { content: 'W';
-.journey-glyph-download::before { content: 'X';
-.journey-glyph-upload::before { content: 'Y';
-.journey-glyph-package::before { content: 'Z';
-.journey-glyph-sun-white::before { content: 'a';
-.journey-glyph-sun-half::before { content: 'b';
-.journey-glyph-sun-black::before { content: 'c';
-.journey-glyph-moon-white::before { content: 'd';
-.journey-glyph-moon-half::before { content: 'e';
-.journey-glyph-moon-black::before { content: 'f';
-.journey-glyph-star::before { content: 'g';
-.journey-glyph-heart::before { content: 'h';
-.journey-glyph-fire::before { content: 'i';
-.journey-glyph-electricity::before { content: 'j';
-.journey-glyph-snow-flake::before { content: 'k';
-.journey-glyph-water-drop::before { content: 'l';
-.journey-glyph-key::before { content: 'm';
-.journey-glyph-lock-closed::before { content: 'n';
-.journey-glyph-lock-open::before { content: 'o';
-.journey-glyph-dollar-bill-black::before { content: 'p';
-.journey-glyph-dollar-bill-white::before { content: 'q';
-.journey-glyph-cart-white::before { content: 'r';
-.journey-glyph-cart-black::before { content: 's';
-.journey-glyph-arrow-up-white::before { content: '0';
-.journey-glyph-arrow-right-white::before { content: '1';
-.journey-glyph-arrow-down-white::before { content: '2';
-.journey-glyph-arrow-left-white::before { content: '3';
-.journey-glyph-arrow-up-black::before { content: '4';
-.journey-glyph-arrow-right-black::before { content: '5';
-.journey-glyph-arrow-down-black::before { content: '6';
-.journey-glyph-arrow-left-black::before { content: '7';
-.journey-glyph-circle-frame::before { content: '8';
-.journey-glyph-square-frame::before { content: '9';
-.journey-glyph-triangle-frame::before { content: ':';
-.journey-glyph-crossed-circle-frame::before { content: ';';
-.journey-glyph-x-cross-large::before { content: '<';
-.journey-glyph-x-cross-small::before { content: '=';
-.journey-glyph-steam::before { content: '>';
+.journey-glyph-gear-white::before, .journey-glyph-overlay-gear-white::before { content: 'A'; }
+.journey-glyph-gear-black::before, .journey-glyph-overlay-gear-black::before { content: 'B'; }
+.journey-glyph-wrench::before, .journey-glyph-overlay-wrench::before { content: 'C'; }
+.journey-glyph-sword::before, .journey-glyph-overlay-sword::before { content: 'D'; }
+.journey-glyph-shield::before, .journey-glyph-overlay-shield::before { content: 'E'; }
+.journey-glyph-cube-white::before, .journey-glyph-overlay-cube-white::before { content: 'F'; }
+.journey-glyph-cube-black::before, .journey-glyph-overlay-cube-black::before { content: 'G'; }
+.journey-glyph-bowl-white::before, .journey-glyph-overlay-bowl-white::before { content: 'H'; }
+.journey-glyph-bowl-black::before, .journey-glyph-overlay-bowl-black::before { content: 'I'; }
+.journey-glyph-teacup-white::before, .journey-glyph-overlay-teacup-white::before { content: 'J'; }
+.journey-glyph-teacup-black::before, .journey-glyph-overlay-teacup-black::before { content: 'K'; }
+.journey-glyph-console::before, .journey-glyph-overlay-console::before { content: 'L'; }
+.journey-glyph-server-stack::before, .journey-glyph-overlay-server-stack::before { content: 'M'; }
+.journey-glyph-desktop::before, .journey-glyph-overlay-desktop::before { content: 'N'; }
+.journey-glyph-mobile-phone::before, .journey-glyph-overlay-mobile-phone::before { content: 'O'; }
+.journey-glyph-page-file::before, .journey-glyph-overlay-page-file::before { content: 'P'; }
+.journey-glyph-folder::before, .journey-glyph-overlay-folder::before { content: 'Q'; }
+.journey-glyph-envelope-black::before, .journey-glyph-overlay-envelope-black::before { content: 'R'; }
+.journey-glyph-envelope-white::before, .journey-glyph-overlay-envelope-white::before { content: 'S'; }
+.journey-glyph-sound-speaker::before, .journey-glyph-overlay-sound-speaker::before { content: 'T'; }
+.journey-glyph-microphone::before, .journey-glyph-overlay-microphone::before { content: 'U'; }
+.journey-glyph-sine-wave::before, .journey-glyph-overlay-sine-wave::before { content: 'V'; }
+.journey-glyph-zigzag-wave::before, .journey-glyph-overlay-zigzag-wave::before { content: 'W'; }
+.journey-glyph-download::before, .journey-glyph-overlay-download::before { content: 'X'; }
+.journey-glyph-upload::before, .journey-glyph-overlay-upload::before { content: 'Y'; }
+.journey-glyph-package::before, .journey-glyph-overlay-package::before { content: 'Z'; }
+.journey-glyph-sun-white::before, .journey-glyph-overlay-sun-white::before { content: 'a'; }
+.journey-glyph-sun-half::before, .journey-glyph-overlay-sun-half::before { content: 'b'; }
+.journey-glyph-sun-black::before, .journey-glyph-overlay-sun-black::before { content: 'c'; }
+.journey-glyph-moon-white::before, .journey-glyph-overlay-moon-white::before { content: 'd'; }
+.journey-glyph-moon-half::before, .journey-glyph-overlay-moon-half::before { content: 'e'; }
+.journey-glyph-moon-black::before, .journey-glyph-overlay-moon-black::before { content: 'f'; }
+.journey-glyph-star::before, .journey-glyph-overlay-star::before { content: 'g'; }
+.journey-glyph-heart::before, .journey-glyph-overlay-heart::before { content: 'h'; }
+.journey-glyph-fire::before, .journey-glyph-overlay-fire::before { content: 'i'; }
+.journey-glyph-electricity::before, .journey-glyph-overlay-electricity::before { content: 'j'; }
+.journey-glyph-snow-flake::before, .journey-glyph-overlay-snow-flake::before { content: 'k'; }
+.journey-glyph-water-drop::before, .journey-glyph-overlay-water-drop::before { content: 'l'; }
+.journey-glyph-key::before, .journey-glyph-overlay-key::before { content: 'm'; }
+.journey-glyph-lock-closed::before, .journey-glyph-overlay-lock-closed::before { content: 'n'; }
+.journey-glyph-lock-open::before, .journey-glyph-overlay-lock-open::before { content: 'o'; }
+.journey-glyph-dollar-bill-black::before, .journey-glyph-overlay-dollar-bill-black::before { content: 'p'; }
+.journey-glyph-dollar-bill-white::before, .journey-glyph-overlay-dollar-bill-white::before { content: 'q'; }
+.journey-glyph-cart-white::before, .journey-glyph-overlay-cart-white::before { content: 'r'; }
+.journey-glyph-cart-black::before, .journey-glyph-overlay-cart-black::before { content: 's'; }
+.journey-glyph-arrow-up-white::before, .journey-glyph-overlay-arrow-up-white::before { content: '0'; }
+.journey-glyph-arrow-right-white::before, .journey-glyph-overlay-arrow-right-white::before { content: '1'; }
+.journey-glyph-arrow-down-white::before, .journey-glyph-overlay-arrow-down-white::before { content: '2'; }
+.journey-glyph-arrow-left-white::before, .journey-glyph-overlay-arrow-left-white::before { content: '3'; }
+.journey-glyph-arrow-up-black::before, .journey-glyph-overlay-arrow-up-black::before { content: '4'; }
+.journey-glyph-arrow-right-black::before, .journey-glyph-overlay-arrow-right-black::before { content: '5'; }
+.journey-glyph-arrow-down-black::before, .journey-glyph-overlay-arrow-down-black::before { content: '6'; }
+.journey-glyph-arrow-left-black::before, .journey-glyph-overlay-arrow-left-black::before { content: '7'; }
+.journey-glyph-circle-frame::before, .journey-glyph-overlay-circle-frame::before { content: '8'; }
+.journey-glyph-square-frame::before, .journey-glyph-overlay-square-frame::before { content: '9'; }
+.journey-glyph-triangle-frame::before, .journey-glyph-overlay-triangle-frame::before { content: ':'; }
+.journey-glyph-crossed-circle-frame::before, .journey-glyph-overlay-crossed-circle-frame::before { content: ';'; }
+.journey-glyph-x-cross-large::before, .journey-glyph-overlay-x-cross-large::before { content: '<'; }
+.journey-glyph-x-cross-small::before, .journey-glyph-overlay-x-cross-small::before { content: '='; }
+.journey-glyph-steam::before, .journey-glyph-overlay-steam::before { content: '>'; }
