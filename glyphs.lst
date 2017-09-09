@@ -1,0 +1,123 @@
+
+- name: Gear White
+  glyph: "A"
+- name: Gear Black
+  glyph: "B"
+- name: Wrench
+  glyph: "C"
+- name: Sword
+  glyph: "D"
+- name: Shield
+  glyph: "E"
+- name: Cube White
+  glyph: "F"
+- name: Cube Black
+  glyph: "G"
+- name: Bowl White
+  glyph: "H"
+- name: Bowl Black
+  glyph: "I"
+- name: Teacup White
+  glyph: "J"
+- name: Teacup Black
+  glyph: "K"
+- name: Console
+  glyph: "L"
+- name: Server Stack
+  glyph: "M"
+- name: Desktop
+  glyph: "N"
+- name: Mobile Phone
+  glyph: "O"
+- name: Page File
+  glyph: "P"
+- name: Folder
+  glyph: "Q"
+- name: Envelope Black
+  glyph: "R"
+- name: Envelope White
+  glyph: "S"
+- name: Sound Speaker
+  glyph: "T"
+- name: Microphone
+  glyph: "U"
+- name: Sine Wave
+  glyph: "V"
+- name: ZigZag Wave
+  glyph: "W"
+- name: Download
+  glyph: "X"
+- name: Upload
+  glyph: "Y"
+- name: Package
+  glyph: "Z"
+
+- name: Sun White
+  glyph: "a"
+- name: Sun Half
+  glyph: "b"
+- name: Sun Black
+  glyph: "c"
+- name: Moon White
+  glyph: "d"
+- name: Moon Half
+  glyph: "e"
+- name: Moon Black
+  glyph: "f"
+- name: Star
+  glyph: "g"
+- name: Heart
+  glyph: "h"
+- name: Fire
+  glyph: "i"
+- name: Electricity
+  glyph: "j"
+- name: Snow Flake
+  glyph: "k"
+- name: Water Drop
+  glyph: "l"
+- name: Key
+  glyph: "m"
+- name: Lock Closed
+  glyph: "n"
+- name: Lock Open
+  glyph: "o"
+- name: Dollar Bill Black
+  glyph: "p"
+- name: Dollar Bill White
+  glyph: "q"
+- name: Cart White
+  glyph: "r"
+- name: Cart Black
+  glyph: "s"
+
+- name: Arrow Up White
+  glyph: "0"
+- name: Arrow Right White
+  glyph: "1"
+- name: Arrow Down White
+  glyph: "2"
+- name: Arrow Left White
+  glyph: "3"
+- name: Arrow Up Black
+  glyph: "4"
+- name: Arrow Right Black
+  glyph: "5"
+- name: Arrow Down Black
+  glyph: "6"
+- name: Arrow Left Black
+  glyph: "7"
+- name: Circle Frame
+  glyph: "8"
+- name: Square Frame
+  glyph: "9"
+- name: Triangle Frame
+  glyph: ":"
+- name: Crossed Circle Frame
+  glyph: ";"
+- name: X Cross Large
+  glyph: "<"
+- name: X Cross Small
+  glyph: "="
+- name: Steam
+  glyph: ">"

@@ -1,0 +1,94 @@
+
+
+@font-face {
+	font-family: 'Journey Glyph';
+	src: url('Journey_Glyph_v1.ttf') format('truetype'),
+		url('Journey_Glyph_v1.otf') format('opentype'),
+		url('Journey_Glyph_v1.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i[class^='journey-glyph-'], i[class*=' journey-glyph-'] {
+	font-style: normal;
+}
+
+[class^='journey-glyph-'], [class*=' journey-glyph-'] {
+	font-family: 'Journey Glyph';
+	font-size: 4.0em;
+	line-height: 1.0em;
+}
+
+.small[class^='journey-glyph-'], .small[class*=' journey-glyph-'] {
+	font-size: 4.0em;
+}
+
+.medium[class^='journey-glyph-'], .medium[class*=' journey-glyph-'] {
+	font-size: 8.0em;
+}
+
+.large[class^='journey-glyph-'], .large[class*=' journey-glyph-'] {
+	font-size: 16.0em;
+}
+
+
+.journey-glyph-gear-white::before { content: 'A';
+.journey-glyph-gear-black::before { content: 'B';
+.journey-glyph-wrench::before { content: 'C';
+.journey-glyph-sword::before { content: 'D';
+.journey-glyph-shield::before { content: 'E';
+.journey-glyph-cube-white::before { content: 'F';
+.journey-glyph-cube-black::before { content: 'G';
+.journey-glyph-bowl-white::before { content: 'H';
+.journey-glyph-bowl-black::before { content: 'I';
+.journey-glyph-teacup-white::before { content: 'J';
+.journey-glyph-teacup-black::before { content: 'K';
+.journey-glyph-console::before { content: 'L';
+.journey-glyph-server-stack::before { content: 'M';
+.journey-glyph-desktop::before { content: 'N';
+.journey-glyph-mobile-phone::before { content: 'O';
+.journey-glyph-page-file::before { content: 'P';
+.journey-glyph-folder::before { content: 'Q';
+.journey-glyph-envelope-black::before { content: 'R';
+.journey-glyph-envelope-white::before { content: 'S';
+.journey-glyph-sound-speaker::before { content: 'T';
+.journey-glyph-microphone::before { content: 'U';
+.journey-glyph-sine-wave::before { content: 'V';
+.journey-glyph-zigzag-wave::before { content: 'W';
+.journey-glyph-download::before { content: 'X';
+.journey-glyph-upload::before { content: 'Y';
+.journey-glyph-package::before { content: 'Z';
+.journey-glyph-sun-white::before { content: 'a';
+.journey-glyph-sun-half::before { content: 'b';
+.journey-glyph-sun-black::before { content: 'c';
+.journey-glyph-moon-white::before { content: 'd';
+.journey-glyph-moon-half::before { content: 'e';
+.journey-glyph-moon-black::before { content: 'f';
+.journey-glyph-star::before { content: 'g';
+.journey-glyph-heart::before { content: 'h';
+.journey-glyph-fire::before { content: 'i';
+.journey-glyph-electricity::before { content: 'j';
+.journey-glyph-snow-flake::before { content: 'k';
+.journey-glyph-water-drop::before { content: 'l';
+.journey-glyph-key::before { content: 'm';
+.journey-glyph-lock-closed::before { content: 'n';
+.journey-glyph-lock-open::before { content: 'o';
+.journey-glyph-dollar-bill-black::before { content: 'p';
+.journey-glyph-dollar-bill-white::before { content: 'q';
+.journey-glyph-cart-white::before { content: 'r';
+.journey-glyph-cart-black::before { content: 's';
+.journey-glyph-arrow-up-white::before { content: '0';
+.journey-glyph-arrow-right-white::before { content: '1';
+.journey-glyph-arrow-down-white::before { content: '2';
+.journey-glyph-arrow-left-white::before { content: '3';
+.journey-glyph-arrow-up-black::before { content: '4';
+.journey-glyph-arrow-right-black::before { content: '5';
+.journey-glyph-arrow-down-black::before { content: '6';
+.journey-glyph-arrow-left-black::before { content: '7';
+.journey-glyph-circle-frame::before { content: '8';
+.journey-glyph-square-frame::before { content: '9';
+.journey-glyph-triangle-frame::before { content: ':';
+.journey-glyph-crossed-circle-frame::before { content: ';';
+.journey-glyph-x-cross-large::before { content: '<';
+.journey-glyph-x-cross-small::before { content: '=';
+.journey-glyph-steam::before { content: '>';
