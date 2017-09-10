@@ -76,7 +76,7 @@ div[class^='journey-glyph-overlay-'], div[class*=' journey-glyph-overlay-'] {
 .journey-glyph-heart::before, .journey-glyph-overlay-heart::before { content: 'h'; }
 .journey-glyph-fire::before, .journey-glyph-overlay-fire::before { content: 'i'; }
 .journey-glyph-electricity::before, .journey-glyph-overlay-electricity::before { content: 'j'; }
-.journey-glyph-snow-flake::before, .journey-glyph-overlay-snow-flake::before { content: 'k'; }
+.journey-glyph-snowflake::before, .journey-glyph-overlay-snowflake::before { content: 'k'; }
 .journey-glyph-water-drop::before, .journey-glyph-overlay-water-drop::before { content: 'l'; }
 .journey-glyph-key::before, .journey-glyph-overlay-key::before { content: 'm'; }
 .journey-glyph-lock-closed::before, .journey-glyph-overlay-lock-closed::before { content: 'n'; }
