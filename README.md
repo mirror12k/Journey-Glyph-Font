@@ -2,6 +2,8 @@
 Journey Glyph is a basic open source icon font for web development.
 Free to use, copy, modify, and redistribute under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL).
 
+![font example](sample.png)
+
 ## Usage
 Import the stylesheet in html:
 '''html
